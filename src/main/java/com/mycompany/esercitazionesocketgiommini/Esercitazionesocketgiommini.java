@@ -1,17 +1,16 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
- */
+import java.net.*;
+import java.io*;
 
-package com.mycompany.esercitazionesocketgiommini;
-
-/**
- *
- * @author Studente
- */
-public class Esercitazionesocketgiommini {
-
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
-    }
+public class Server{
+    public static void main (String []args) throws IOxcaption{
+        int port = 12345;
+        ServerSocket serverSocket = new ServerSocket(port);
+        System.out.println("Server in ascolto sulla porta " + port);
+        
+}
+}
+try{
+while (true){
+Socket clientSocket =serverSocket.accept();
+}
 }
